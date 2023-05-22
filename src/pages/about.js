@@ -38,7 +38,7 @@ const About = () => {
     return (
         <>
             <Head>
-                <title> CodeBucks | About Page</title>
+                <title> Sagar | About Page</title>
                 <meta name='description' content='any description' />
             </Head>
             <main className='flex w-full felx-col item-center justify-center'>
