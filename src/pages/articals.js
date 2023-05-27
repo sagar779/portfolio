@@ -55,10 +55,10 @@ const Artical = ({ img, title, date, link }) => {
         
         className='realative w-full p-4 py-6 my-4 rounded-xl flex-item-center justify-between
         bg-light text-dark first:mt-0 border border-solid border-dark
-        border-r-4 border-b-4
+        border-r-4 border-b-4 dark:border-light dark:bg-dark dark:text-light
         '>
             <MovingImg title={title} img={img} link={link} />
-            <span className='text-primary font-semibold '>{date}</span>
+            <span className='text-primary font-semibold dark:text-primaryDark '>{date}</span>
         </motion.li>
     )
 }
@@ -66,7 +66,7 @@ const Artical = ({ img, title, date, link }) => {
 
 const FeaturedArticale = ({ img, title, time, summary, link }) => {
     return (
-        <li className=' relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl'>
+        <li className=' relative col-span-1 w-full p-4 bg-light border border-solid border-dark rounded-2xl dark:bg-dark dark:border-light'>
 
             <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
 rounded-br-3xl
@@ -86,7 +86,7 @@ rounded-br-3xl
                 <h2 className='capitalize text-xl font-bold my-2 mt-4 hover:underline'>{title}</h2>
             </Link>
             <p className='text-sm-mb-2'>{summary}</p>
-            <span className='text-primary font-semibold'>{time}</span>
+            <span className='text-primary font-semibold dark:text-primaryDark'>{time}</span>
         </li>
 
 
@@ -100,7 +100,7 @@ const articals = () => {
                 <title> Sagar | Artical Page</title>
                 <meta name='description' content='any description' />
             </Head>
-            <main className='w-full mb-15 flex flex-col items-center justify-center overflow-hidden'>
+            <main className='w-full mb-15 flex flex-col items-center justify-center overflow-hidden dark:text-light'>
                 <Layout className='pt-16'>
                     <AnimatedText text="Words Can Change The World!" className='mb-16 text-7xl' />
                     <ul className='grid grid-cols-2 gap-16' >

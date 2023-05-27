@@ -18,7 +18,7 @@ const CoustemLink = ({ href, title, className = '' }) => {
           absolute left-0 -bottom-0.5 
           group-hover:w-full translate-[width] ease-duration-300
           ${router.asPath === href ? 'w-full' : 'w-0'}
-         `}>&nbsp;</span>
+         dark:bg-light`}>&nbsp;</span>
         </Link>
     )
 }
@@ -28,7 +28,7 @@ const NavBar = () => {
     const  [mode,setMode] = useTheamSwitcher();
     return (
         <header
-            className='w-full px-32 py-8 font-medium flex items-center justify-between'
+            className='w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light'
         >
             <nav>
                 <CoustemLink href="/" title="Home" className='mr-4' />
@@ -63,7 +63,7 @@ const NavBar = () => {
                 <motion.a href="https://twitter.com" target={'_blank'}
                     whileHover={{ y: -4 }}
                     whileTap={{ scale: 0.9 }}
-                    className="w-6 mx-3"
+                    className="w-6 mx-3 bg-light rounded-full"
                 >
                     <PinterestIcon />
                 </motion.a>
