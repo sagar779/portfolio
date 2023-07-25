@@ -48,8 +48,8 @@ const About = () => {
                         <div className='col-span-3 flex flex-col items-start justify-center'>
                             <h2 className='mb-4 text-lg font-bold uppercas text-dark/75 dark:text-light/75'>Biography</h2>
                             <p className='font-medium'>
-                                Hi, I'm CodeBucks, a web developer and UI/UX designer with a passion for creating beautiful, functional,
-                                and user-centered digital experiences. With 4 years of experience in the field. I am always looking for
+                                Hi, I'm Sagar, a web developer and UI/UX designer with a passion for creating beautiful, functional,
+                                and user-centered digital experiences. With 1 years of experience in the field. I am always looking for
                                 new and innovative ways to bring my clients' visions to life.
                             </p>
                             <p className='my-4 font-medium'>
@@ -74,20 +74,20 @@ const About = () => {
 
                             <div className='flex flex-col items-end justify-center'>
                                 <span className='inline-block text-7xl font-bold'>
-                                    <AnimationNumbers value={50} />+
+                                    <AnimationNumbers value={2} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>satisfied clients</h2>
                             </div>
                             <div className='flex flex-col items-end justify-center'>
                                 <span className='inline-block text-7xl font-bold'>
-                                    <AnimationNumbers value={40} />+
+                                    <AnimationNumbers value={10} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>project completed</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center'>
                                 <span className='inline-block text-7xl font-bold'>
-                                    <AnimationNumbers value={4} />+
+                                    <AnimationNumbers value={1} />+
                                 </span>
                                 <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>years of experiance</h2>
                             </div>

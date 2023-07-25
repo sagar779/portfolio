@@ -48,7 +48,7 @@ const Education = () => {
 
                 <ul className="w-full flex flex-col item-start justify-between ml-4">
                     <Details
-                        type="Bachelor Of Science In Computer Science and Engineering" 
+                        type="Bachelor Of Technology In Computer Science Engineering" 
                         time="2020-2024 "
                         place="Graphic Era Hill University (GEHU)"
                        info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial 

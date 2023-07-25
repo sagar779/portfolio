@@ -50,68 +50,12 @@ const Experience = () => {
                 <ul className="w-full flex flex-col item-start justify-between ml-4">
                     <Details
 
-                        position="Software Engineer" company="Google"
+                        position="Intern" company="Doon Public School"
                         companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-    search engine, including improving the accuracy and relevance of search results and 
-    developing new tools for data analysis and visualization."
-
-                    />
-
-
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-    search engine, including improving the accuracy and relevance of search results and 
-    developing new tools for data analysis and visualization."
-
-                    />
-
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-    search engine, including improving the accuracy and relevance of search results and 
-    developing new tools for data analysis and visualization."
-
-                    />
-
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-    search engine, including improving the accuracy and relevance of search results and 
-    developing new tools for data analysis and visualization."
-
-                    />
-
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-    search engine, including improving the accuracy and relevance of search results and 
-    developing new tools for data analysis and visualization."
-
-                    />
-
-                    <Details
-
-                        position="Software Engineer" company="Google"
-                        companyLink="www.google.com"
-                        time="2022-Present" address="Mountain View, CA"
-                        work="Worked on a team responsible for developing new features for Google's 
-    search engine, including improving the accuracy and relevance of search results and 
-    developing new tools for data analysis and visualization."
+                        time="2021-2021" address="Dehradun, Uttarakhand,India"
+                        work="Worked on a school website for 4 weeks where I reconstruct the simple 
+                        html ans css website to completely modern website with MEARN methodlogy.
+                        "
 
                     />
 
