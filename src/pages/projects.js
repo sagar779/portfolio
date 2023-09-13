@@ -20,7 +20,9 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
 <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark dark:bg-light
 rounded-br-3xl
 ' />
-            <Link href={link} target='_blank'
+            <Link 
+                href={link} 
+                target='_blank'
                 className='w-1/2 cursor-pointer overflow-hidden rounded-lg'
             >
                 <FramerImage src={img} alt={title} className="w-full h-auto" 
@@ -29,7 +31,7 @@ rounded-br-3xl
                 />
             </Link>
 
-            <div className='w-1/2 flex flex-col items-start justify-between pl-6'>
+            <div className='w-1/2 flex flex-col items-start justify-between mt-4'>
                 <span className=' text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
                 <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
                     <h2 className='my-2 w-full text-left text-3xl font-bold dark:text-light'>{title}</h2>
@@ -49,7 +51,7 @@ rounded-br-3xl
 
 const Project = ({ title, type, img, link, github }) => {
     return (
-        <article className='w-full flex felx-col item-center justify-center 
+        <article className='w-full flex flex-col item-center justify-center 
         rounded-2xl border border-solid border-dark bg-light p-6 relative  dark:bg-dark dark:border-light'>
 
 <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
@@ -66,7 +68,7 @@ rounded-br-3xl dark:bg-light
                 />
             </Link>
 
-            <div className='w-full flex flex-col items-start justify-between mt-4'>
+            <div className='w-full flex flex-col items-start justify-between mt-2'>
                 <span className='pt-4 text-primary font-medium text-xl dark:text-primaryDark'>{type}</span>
                 <Link
                     href={link}
