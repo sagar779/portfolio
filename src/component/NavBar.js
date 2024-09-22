@@ -38,7 +38,7 @@ const NavBar = () => {
             </nav>
 
             <nav className="flex items-center justify-center flex-wrap">
-                <motion.a href="https://twitter.com" target={'_blank'}
+                <motion.a href="https://x.com/SagarRauthan6?t=ByLmkv54c-I5gybylt0nvg&s=09" target={'_blank'}
                     whileHover={{ y: -4 }}
                     whileTap={{ scale: 0.9 }}
                     className="w-6 mr-3"
@@ -46,14 +46,14 @@ const NavBar = () => {
                     <TwitterIcon />
                 </motion.a>
 
-                <motion.a href="https://twitter.com" target={'_blank'}
+                <motion.a href="https://github.com/sagar779" target={'_blank'}
                     whileHover={{ y: -4 }}
                     whileTap={{ scale: 0.9 }}
                     className="w-6 mx-3"
                 >
                     <GithubIcon />
                 </motion.a>
-                <motion.a href="https://twitter.com" target={'_blank'}
+                <motion.a href="https://www.linkedin.com/in/sagarsingh-rauthan-a59b711ba/" target={'_blank'}
                     whileHover={{ y: -4 }}
                     whileTap={{ scale: 0.9 }}
                     className="w-6 mx-3"

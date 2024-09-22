@@ -48,6 +48,17 @@ const Experience = () => {
 
 
                 <ul className="w-full flex flex-col item-start justify-between ml-4">
+
+                    <Details
+
+                        position="Campus Ambassador" company="TVS Cradit Service Ltd."
+                        companyLink="www.google.com"
+                        time="08-2023--Present" address="Dehradun, Uttarakhand,India"
+                        work="As a campus ambassador, I've honed my ability to connect with peers, faculty, and professionals in my field. 
+                        I've also cultivated strong public speaking skills. When faced with challenges during my duties, I've 
+                        developed problem-solving and critical thinking skills that are invaluable for overcoming obstacles.
+                        "
+                     />
                     <Details
 
                         position="Intern" company="Doon Public School"
@@ -58,6 +69,8 @@ const Experience = () => {
                         "
 
                     />
+
+                    
 
                 </ul>
             </div>
